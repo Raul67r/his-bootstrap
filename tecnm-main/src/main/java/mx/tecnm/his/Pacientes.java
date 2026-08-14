@@ -1,6 +1,6 @@
 package mx.tecnm.his;
 
-import java.util.*;
+
 
 public class Pacientes{
    String id;

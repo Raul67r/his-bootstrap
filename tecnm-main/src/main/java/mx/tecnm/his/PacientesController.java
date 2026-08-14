@@ -2,9 +2,9 @@ package mx.tecnm.his;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.*; 
-import mx.tecnm.his.Pacientes;
 
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/pacientes")
 public class PacientesController {
