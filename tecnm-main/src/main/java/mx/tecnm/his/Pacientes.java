@@ -1,8 +1,11 @@
 package mx.tecnm.his;
 
 
-
+@Entity
+@Table(name = "pacientes")
 public class Pacientes{
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
    String id;
    String name;
    String documentId;
