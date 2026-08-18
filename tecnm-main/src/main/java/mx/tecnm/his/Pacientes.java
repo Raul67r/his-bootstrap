@@ -5,7 +5,6 @@ package mx.tecnm.his;
 @Table(name = "pacientes")
 public class Pacientes{
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
    String id;
    String name;
    String documentId;
