@@ -4,11 +4,11 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:5432/hospital
-    username: postgres
-    password: 
+    username: raulrm
+    password: Martinez5r
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
-
-
+    show-sql: true

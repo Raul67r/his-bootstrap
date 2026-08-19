@@ -1,5 +1,6 @@
 package mx.tecnm.his;
-
-public interface Mapper extends JpaRepository<Paciente, Long> {
-    List<Paciente> findByNombre(String name);
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+public interface Mapper extends JpaRepository<Pacientes, Long> {
+    List<Pacientes> findByName(String name);
 }
