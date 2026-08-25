@@ -20,5 +20,9 @@ public class PacientesController {
     public List<Pacientes> obtenerPacientes() {
          return mapper.findAll();
     }
+      @PostMapping
+    public Pacientes insertarPaciente(@RequestBody Pacientes paciente) {
+        return mapper.save(paciente);
+    }
 
 }
